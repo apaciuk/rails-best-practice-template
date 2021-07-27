@@ -1,0 +1,16 @@
+<div class="page-header">
+  <%= link_to pages_path, class: 'btn btn-default' do %>
+    All Pages
+  <% end %>
+  <%= link_to edit_page_path(@page), class: 'btn btn-primary' do %>
+    Edit
+  <% end %>
+  <h1>Show page</h1>
+</div>
+
+<dl class="dl-horizontal">
+  <dt>Title:</dt>
+  <dd><%= @page.title %></dd>
+  <dt>Body:</dt>
+  <dd><%= @page.body %></dd>
+</dl>

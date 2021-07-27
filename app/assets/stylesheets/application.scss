@@ -1,0 +1,39 @@
+$navbar-dark-bg: #473884;
+// $light-orange: #ff8c00;
+// $navbar-default-color: $light-orange;
+
+@import "font-awesome-sprockets";
+@import "font-awesome";
+@import "bootstrap";
+@import "jumpstart/sticky-footer";
+@import "jumpstart/announcements";
+
+// Fixes bootstrap nav-brand container overlap
+@include media-breakpoint-down(xs) {
+  .container {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+// Masquerade alert shouldn't have a bottom margin
+body > .alert {
+  margin-bottom: 0;
+}
+.navbar-dark {
+background-color:  #473884!important; 
+}
+.jumbotron {
+  margin-bottom: 100px;
+  height: 600px;
+  font-size: 60px;
+  background-image: asset-url("tech.jpg");
+}
+.jumbotron h1,
+.jumbotron p.lead {
+color: whitesmoke;
+padding-left: 40px;
+padding-top: 30px;
+}
+
+
