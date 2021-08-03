@@ -8,7 +8,7 @@ Things you may want to cover:
 
 * Ruby version
 
-Ruby 3.0.1
+Ruby 3.0.0
 
 Rails 6
 
