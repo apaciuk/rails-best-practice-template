@@ -16,6 +16,10 @@ Rails 6
 
 Fix admin new user.
 
+Add blog/posts categories and functions
+
+Add Faraday http external http requests
+
 * Configuration
 
 clone repo
